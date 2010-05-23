@@ -2,7 +2,7 @@
 //  touchDelegate.h
 //  wav
 //
-//  Created by nishimaru hayato on 10/05/23.
+//  Created by hayato240 on 10/05/23.
 //  Copyright 2010 Indivisual. All rights reserved.
 //
 

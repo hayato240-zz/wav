@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* wavAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
 			sepNavSelRange = "{370, 0}";
 			sepNavVisRange = "{0, 370}";
-			sepNavWindowFrame = "{{188, 90}, {750, 558}}";
+			sepNavWindowFrame = "{{415, 205}, {750, 558}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* wavAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1135}}";
-			sepNavSelRange = "{225, 0}";
-			sepNavVisRange = "{1464, 1082}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1066}}";
+			sepNavSelRange = "{59, 0}";
+			sepNavVisRange = "{0, 1174}";
 			sepNavWindowFrame = "{{130, 390}, {750, 558}}";
 		};
 	};
@@ -24,16 +24,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* wavViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {962, 416}}";
-			sepNavSelRange = "{378, 0}";
-			sepNavVisRange = "{0, 571}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 451}}";
+			sepNavSelRange = "{62, 0}";
+			sepNavVisRange = "{0, 575}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* wavViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1729}}";
-			sepNavSelRange = "{2653, 1}";
-			sepNavVisRange = "{1936, 462}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 1872}}";
+			sepNavSelRange = "{62, 0}";
+			sepNavVisRange = "{0, 734}";
 			sepNavWindowFrame = "{{38, 220}, {750, 558}}";
 		};
 	};
@@ -111,8 +111,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296313009;
-			PBXWorkspaceStateSaveDate = 296313009;
+			PBXPerProjectTemplateStateSaveDate = 296315143;
+			PBXWorkspaceStateSaveDate = 296315143;
 		};
 		perUserProjectItems = {
 			A717BC3B11A83BB8001A366E = A717BC3B11A83BB8001A366E /* PlistBookmark */;
@@ -121,8 +121,8 @@
 			A717BC7C11A8529B001A366E = A717BC7C11A8529B001A366E /* PBXBookmark */;
 			A717D5D211A94D7700A498E1 = A717D5D211A94D7700A498E1 /* PBXTextBookmark */;
 			A717D5D311A94D7700A498E1 = A717D5D311A94D7700A498E1 /* PBXTextBookmark */;
-			A756D93611A960BC008239BF /* PBXTextBookmark */ = A756D93611A960BC008239BF /* PBXTextBookmark */;
-			A756D93911A960BC008239BF /* PBXTextBookmark */ = A756D93911A960BC008239BF /* PBXTextBookmark */;
+			A756D93611A960BC008239BF = A756D93611A960BC008239BF /* PBXTextBookmark */;
+			A756D93911A960BC008239BF = A756D93911A960BC008239BF /* PBXTextBookmark */;
 			A7E06BEC11A93F2C004ECE9F = A7E06BEC11A93F2C004ECE9F /* PBXTextBookmark */;
 			A7E06BED11A93F2C004ECE9F = A7E06BED11A93F2C004ECE9F /* PBXTextBookmark */;
 			A7E06BF011A93F2C004ECE9F = A7E06BF011A93F2C004ECE9F /* PBXTextBookmark */;
@@ -304,16 +304,16 @@
 	};
 	A7E0695D11A8F3ED004ECE9F /* YKAudioOutput.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {962, 439}}";
-			sepNavSelRange = "{643, 0}";
-			sepNavVisRange = "{0, 644}";
+			sepNavIntBoundsRect = "{{0, 0}, {962, 451}}";
+			sepNavSelRange = "{58, 0}";
+			sepNavVisRange = "{0, 637}";
 		};
 	};
 	A7E0695E11A8F3ED004ECE9F /* YKAudioOutput.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {962, 1746}}";
 			sepNavSelRange = "{1762, 0}";
-			sepNavVisRange = "{1089, 1018}";
+			sepNavVisRange = "{0, 832}";
 			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
 		};
 	};

@@ -2,7 +2,7 @@
 //  wavAppDelegate.m
 //  wav
 //
-//  Created by 西丸 隼人 on 10/05/23.
+//  Created by hayato240 on 10/05/23.
 //  Copyright Indivisual 2010. All rights reserved.
 //
 

@@ -2,7 +2,7 @@
 //  wavUIView.h
 //  wav
 //
-//  Created by 西丸 隼人 on 10/05/23.
+//  Created by hayato240 on 10/05/23.
 //  Copyright 2010 Indivisual. All rights reserved.
 //
 
