@@ -1,774 +1,0 @@
-Twav
-v7
-r0
-t296307758.775571
-cCheck dependencies
-cCpResource build/Debug-iphoneos/wav.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Info.plist wav-Info.plist
-cCopyPNGFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Default.png Default.png
-cProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/main.o /Users/hayato240/Dropbox/wav/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAppDelegate.o /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavViewController.o /Users/hayato240/Dropbox/wav/Classes/wavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavUIView.o /Users/hayato240/Dropbox/wav/Classes/wavUIView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/YKAudioOutput.o /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav normal armv6
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/main.o /Users/hayato240/Dropbox/wav/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAppDelegate.o /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavViewController.o /Users/hayato240/Dropbox/wav/Classes/wavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavUIView.o /Users/hayato240/Dropbox/wav/Classes/wavUIView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/YKAudioOutput.o /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav normal armv7
-cCreateUniversalBinary /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav normal "armv6 armv7"
-cGenerateDSYMFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app.dSYM /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav
-cProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision" /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-cTouch /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent
-cCodeSign /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004BDB847E0000000000000110
-t1272677502
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004BD66CEB00000000000001A7
-t1272343787
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004BD66CEB00000000000001E5
-t1272343787
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004BD7DCF500000000003B2090
-t1272438005
-s3874960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004BD7DCAE0000000000000A23
-t1272437934
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BD7DDD40000000000546850
-t1272438228
-s5531728
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BD7DDFB000000000062FD30
-t1272438267
-s6487344
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BD7DDD60000000000001466
-t1272438230
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BDB68AD00000000000009CD
-t1272670381
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BDB69AE0000000002D460E0
-t1272670638
-s47472864
-
-N/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.h
-c000000004BF90FEB0000000000000284
-t1274613739
-s644
-i<UIKit/UIKit.h>
-i<AudioToolbox/AudioToolbox.h>
-
-N/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m
-c000000004BF912850000000000000E84
-t1274614405
-s3716
-i"YKAudioOutput.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/touchDelegate.h
-c000000004BF8FDDA00000000000000F7
-t1274609114
-s247
-i<UIKit/UIKit.h>
-
-N/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.h
-c000000004BF8CC01000000000000017A
-t1274596353
-s378
-i<UIKit/UIKit.h>
-
-N/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m
-c000000004BF8CD190000000000000A6A
-t1274596633
-s2666
-i"wavAppDelegate.h"
-i"wavViewController.h"
-i"wavUIView.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavAudio.h
-c000000004BF8BC3500000000000000D0
-t1274592309
-s208
-i<Foundation/Foundation.h>
-
-N/Users/hayato240/Dropbox/wav/Classes/wavAudio.m
-c000000004BF8BC3500000000000000B8
-t1274592309
-s184
-i"wavAudio.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavTouch.h
-c000000004BF823ED00000000000000CB
-t1274553325
-s203
-i<Foundation/Foundation.h>
-
-N/Users/hayato240/Dropbox/wav/Classes/wavTouch.m
-c000000004BF825C4000000000000041C
-t1274553796
-s1052
-i"wavTouch.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavUIView.h
-c000000004BF8E867000000000000011E
-t1274603623
-s286
-i<Foundation/Foundation.h>
-i"touchDelegate.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavUIView.m
-c000000004BF903990000000000000410
-t1274610585
-s1040
-i"wavUIView.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavViewController.h
-c000000004BF90DF00000000000000243
-t1274613232
-s579
-i<UIKit/UIKit.h>
-i"YKAudioOutput.h"
-i"wavUIView.h"
-i"touchDelegate.h"
-
-N/Users/hayato240/Dropbox/wav/Classes/wavViewController.m
-c000000004BF90FEB0000000000000B45
-t1274613739
-s2885
-i"wavViewController.h"
-i"YKAudioOutput.h"
-i"wavUIView.h"
-
-N/Users/hayato240/Dropbox/wav/Default.png
-c000000004BF82095000000000000F213
-t1274552469
-s61971
-
-N/Users/hayato240/Dropbox/wav/MainWindow.xib
-c000000004BF7F2A40000000000004DF9
-t1274540708
-s19961
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-t1274614980
-s340
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app.dSYM
-t1274554035
-s102
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Default.png
-t1274552543
-s61971
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Info.plist
-t1274614759
-s645
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/MainWindow.nib
-t2
-s0
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/PkgInfo
-t1274541516
-s8
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/ResourceRules.plist
-t1274541516
-s485
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-t1274614958
-s7463
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav
-t1274614767
-s83232
-
-N/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wavViewController.nib
-t2
-s0
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/YKAudioOutput.o
-t1274614406
-s24064
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/main.o
-t1274545554
-s6612
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav
-t1274614767
-s32792
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav.LinkFileList
-c000000004BF8BCD8000000000000020F
-t1274592472
-s527
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAppDelegate.o
-t1274613739
-s48028
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAudio.o
-t2
-s0
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavTouch.o
-t1274553798
-s39208
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavUIView.o
-t1274610747
-s40336
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavViewController.o
-t1274613739
-s44888
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/YKAudioOutput.o
-t1274614406
-s22784
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/main.o
-t1274545554
-s6584
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav
-t1274614767
-s32236
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav.LinkFileList
-c000000004BF8BCD8000000000000020F
-t1274592472
-s527
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAppDelegate.o
-t1274613740
-s47960
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAudio.o
-t2
-s0
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavTouch.o
-t1274553798
-s38936
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavUIView.o
-t1274610748
-s39928
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavViewController.o
-t1274613740
-s44352
-
-N/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent
-t1274614767
-s412
-
-N/Users/hayato240/Dropbox/wav/main.m
-c000000004BF80591000000000000016E
-t1274545553
-s366
-i<UIKit/UIKit.h>
-
-N/Users/hayato240/Dropbox/wav/wavViewController.xib
-c000000004BF7F2A50000000000001A35
-t1274540709
-s6709
-
-N/Users/hayato240/Dropbox/wav/wav_Prefix.pch
-c000000004BF7F2A500000000000000AF
-t1274540709
-s175
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision
-c000000004BF914440000000000001D27
-t1274614852
-s7463
-
-N/Users/hayato240/Library/MobileDevice/Provisioning Profiles/6DC644C1-C237-4773-8FC4-F08DA4EDCF53.mobileprovision
-c000000004BC201240000000000001C73
-t1271005476
-s7283
-
-N/Users/hayato240/Library/MobileDevice/Provisioning Profiles/B5D36C69-2BFD-49FE-9081-B8B02D86EC16.mobileprovision
-c000000004BF27A8D0000000000001CFE
-t1274182285
-s7422
-
-N/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch
-t1274541517
-s9819696
-
-N/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch
-t1274541517
-s10286640
-
-N/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch
-t1274592474
-s9819696
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cfrtvmozidjwdvbuzwozyysetwep/wav_Prefix.pch.gch
-t1274614724
-s10303024
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch
-t1274614764
-s9840176
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch
-t1274592474
-s10286640
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch
-t1274614764
-s10303024
-
-N/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-glijscpcxuindgcqkbrhtmjkgnsa/wav_Prefix.pch.gch
-t1274614722
-s9840176
-
-Nwav-Info.plist
-c000000004BF7F5CB0000000000000356
-t1274541515
-s854
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies296307758#296307758#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-s296307758.296712
-e296307758.775522
-r1
-xCodeSign
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-o/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app: replacing existing signature
-lSLF07#2@37"CodeSign build/Debug-iphoneos/wav.app296307758#296307758#0(88"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app: replacing existing signature0(0#0#57"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app8602318208#592"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: hayato nishimaru (6G7JS9TSEG)" --resource-rules=/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/ResourceRules.plist --entitlements /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/YKAudioOutput.o /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307566.420784
-e296307566.842588
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/YKAudioOutput.o
-x/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m296307566#296307566#0(0"0(0#0#52"/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m8781959744#1562"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/YKAudioOutput.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/main.o /Users/hayato240/Dropbox/wav/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307564.966572
-e296307566.152247
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/main.o
-x/Users/hayato240/Dropbox/wav/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Compile /Users/hayato240/Dropbox/wav/main.m296307564#296307566#0(0"0(0#0#35"/Users/hayato240/Dropbox/wav/main.m8777487712#1536"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/main.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAppDelegate.o /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307564.967844
-e296307566.260347
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAppDelegate.o
-x/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m296307564#296307566#0(0"0(0#0#53"/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m8775279648#1564"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAppDelegate.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavAudio.o /Users/hayato240/Dropbox/wav/Classes/wavAudio.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavTouch.o /Users/hayato240/Dropbox/wav/Classes/wavTouch.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296246597.863257
-e296246598.076668
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavTouch.o
-x/Users/hayato240/Dropbox/wav/Classes/wavTouch.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/hayato240/Dropbox/wav/Classes/wavTouch.m296246597#296246598#0(0"0(0#0#47"/Users/hayato240/Dropbox/wav/Classes/wavTouch.m8622678624#1550"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavTouch.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavTouch.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavUIView.o /Users/hayato240/Dropbox/wav/Classes/wavUIView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307566.260475
-e296307566.420545
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavUIView.o
-x/Users/hayato240/Dropbox/wav/Classes/wavUIView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/hayato240/Dropbox/wav/Classes/wavUIView.m296307566#296307566#0(0"0(0#0#48"/Users/hayato240/Dropbox/wav/Classes/wavUIView.m8774473216#1554"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavUIView.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavUIView.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavViewController.o /Users/hayato240/Dropbox/wav/Classes/wavViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307566.152418
-e296307566.578019
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavViewController.o
-x/Users/hayato240/Dropbox/wav/Classes/wavViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/hayato240/Dropbox/wav/Classes/wavViewController.m296307566#296307566#0(0"0(0#0#56"/Users/hayato240/Dropbox/wav/Classes/wavViewController.m8775931008#1570"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavViewController.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wavViewController.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/YKAudioOutput.o /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307567.227686
-e296307567.401978
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/YKAudioOutput.o
-x/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@60"Compile /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m296307567#296307567#0(0"0(0#0#52"/Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m8753085504#1562"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/YKAudioOutput.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/YKAudioOutput.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/main.o /Users/hayato240/Dropbox/wav/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307566.578134
-e296307566.703347
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/main.o
-x/Users/hayato240/Dropbox/wav/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Compile /Users/hayato240/Dropbox/wav/main.m296307566#296307566#0(0"0(0#0#35"/Users/hayato240/Dropbox/wav/main.m8777416448#1536"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/main.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/main.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAppDelegate.o /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307566.703461
-e296307566.943978
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAppDelegate.o
-x/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m296307566#296307566#0(0"0(0#0#53"/Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m8777965472#1564"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavAppDelegate.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAppDelegate.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavAudio.o /Users/hayato240/Dropbox/wav/Classes/wavAudio.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavTouch.o /Users/hayato240/Dropbox/wav/Classes/wavTouch.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296246598.077184
-e296246598.155489
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavTouch.o
-x/Users/hayato240/Dropbox/wav/Classes/wavTouch.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /Users/hayato240/Dropbox/wav/Classes/wavTouch.m296246598#296246598#0(0"0(0#0#47"/Users/hayato240/Dropbox/wav/Classes/wavTouch.m8623025312#1550"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavTouch.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavTouch.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavUIView.o /Users/hayato240/Dropbox/wav/Classes/wavUIView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307567.043907
-e296307567.227559
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavUIView.o
-x/Users/hayato240/Dropbox/wav/Classes/wavUIView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /Users/hayato240/Dropbox/wav/Classes/wavUIView.m296307567#296307567#0(0"0(0#0#48"/Users/hayato240/Dropbox/wav/Classes/wavUIView.m8775253536#1554"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavUIView.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavUIView.o0#
-
-CCompileC build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavViewController.o /Users/hayato240/Dropbox/wav/Classes/wavViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307566.944099
-e296307567.300188
-r1
-xCompileC
-xbuild/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavViewController.o
-x/Users/hayato240/Dropbox/wav/Classes/wavViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/hayato240/Dropbox/wav/Classes/wavViewController.m296307566#296307567#0(0"0(0#0#56"/Users/hayato240/Dropbox/wav/Classes/wavViewController.m8768348064#1570"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -include /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch -c /Users/hayato240/Dropbox/wav/Classes/wavViewController.m -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wavViewController.o0#
-
-CCompileXIB /Users/hayato240/Dropbox/wav/MainWindow.xib
-r0
-
-CCompileXIB /Users/hayato240/Dropbox/wav/wavViewController.xib
-r0
-
-CCopyPNGFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Default.png Default.png
-s296245343.882448
-e296245343.985698
-r1
-xCopyPNGFile
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Default.png
-xDefault.png
-olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF07#2@64"CopyPNGFile build/Debug-iphoneos/wav.app/Default.png Default.png296245343#296245343#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#40"/Users/hayato240/Dropbox/wav/Default.png8606367776#528"    cd /Users/hayato240/Dropbox/wav    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/hayato240/Dropbox/wav/Default.png /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Default.png0#
-
-CCpResource build/Debug-iphoneos/wav.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s296234316.036479
-e296234316.049701
-r1
-xCpResource
-xbuild/Debug-iphoneos/wav.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist296234316#296234316#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8621646592#456"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app0#
-
-CCreateUniversalBinary /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav normal "armv6 armv7"
-s296307567.448181
-e296307567.470562
-r1
-xCreateUniversalBinary
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav
-xnormal
-xarmv6 armv7
-lSLF07#2@75"CreateUniversalBinary build/Debug-iphoneos/wav.app/wav normal "armv6 armv7"296307567#296307567#0(0"0(0#0#40"/Users/hayato240/Dropbox/wav/armv6 armv78776177856#446"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav -output /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav0#
-
-CGenerateDSYMFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app.dSYM /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav
-s296307567.470674
-e296307567.953173
-r1
-xGenerateDSYMFile
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app.dSYM
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav
-lSLF07#2@83"GenerateDSYMFile build/Debug-iphoneos/wav.app.dSYM build/Debug-iphoneos/wav.app/wav296307567#296307567#0(0"0(0#0#61"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav8781534880#320"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/wav -o /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app.dSYM0#
-
-CLd /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav normal armv6
-s296307566.842708
-e296307567.043787
-r1
-xLd
-x/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav
-xnormal
-xarmv6
-lSLF07#2@99"Link /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav296307566#296307567#0(0"0(0#0#0"8781954368#813"    cd /Users/hayato240/Dropbox/wav    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -filelist /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv6/wav0#
-
-CLd /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav normal armv7
-s296307567.402086
-e296307567.448045
-r1
-xLd
-x/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav
-xnormal
-xarmv7
-lSLF07#2@99"Link /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav296307567#296307567#0(0"0(0#0#0"8781520608#813"    cd /Users/hayato240/Dropbox/wav    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -filelist /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav.LinkFileList -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/Objects-normal/armv7/wav0#
-
-CProcessInfoPlistFile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Info.plist wav-Info.plist
-s296307559.668522
-e296307559.705095
-r1
-xProcessInfoPlistFile
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Info.plist
-xwav-Info.plist
-lSLF07#2@22"Process wav-Info.plist296307559#296307559#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav-Info.plist8778550272#506"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility wav-Info.plist -genpkginfo /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/ResourceRules.plist -o /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/Info.plist0#
-
-CProcessPCH /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296234316.049811
-e296234317.349092
-r1
-xProcessPCH
-x/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296234316#296234317#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8621338784#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296234316.050556
-e296234317.444351
-r1
-xProcessPCH
-x/var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296234316#296234317#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8621312672#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/Wr/Wr52BlB2FeWBPwSprQJnek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296285272.769237
-e296285274.191543
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296285272#296285274#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8623898400#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-avmobtotvywbylaaasxihwxiilyh/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cfrtvmozidjwdvbuzwozyysetwep/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307517.944744
-e296307524.374953
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cfrtvmozidjwdvbuzwozyysetwep/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296307517#296307524#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8777038784#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cfrtvmozidjwdvbuzwozyysetwep/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307559.797170
-e296307564.793707
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296307559#296307564#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8769947168#1448"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-cuwjldrmnhsbpkgoxihcvtvatgwx/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296285272.772249
-e296285274.089768
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296285272#296285274#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8623641408#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dkvoznmocvxckvgfnpjyrswdnoph/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch wav_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s296307559.804159
-e296307564.966445
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296307559#296307564#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8778372096#1448"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv7 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-dmkzgpvbmmaqtbeqyiwzhfbnwjll/wav_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-glijscpcxuindgcqkbrhtmjkgnsa/wav_Prefix.pch.gch wav_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s296307517.943172
-e296307523.322754
-r1
-xProcessPCH
-x/var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-glijscpcxuindgcqkbrhtmjkgnsa/wav_Prefix.pch.gch
-xwav_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@25"Precompile wav_Prefix.pch296307517#296307523#0(0"0(0#0#43"/Users/hayato240/Dropbox/wav/wav_Prefix.pch8777177792#1446"    cd /Users/hayato240/Dropbox/wav    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-generated-files.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-own-target-headers.hmap -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-all-target-headers.hmap -iquote /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav-project-headers.hmap -F/Users/hayato240/Dropbox/wav/build/Debug-iphoneos -I/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/include -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources/armv6 -I/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/DerivedSources -c /Users/hayato240/Dropbox/wav/wav_Prefix.pch -o /var/folders/mY/mYtmWAH3HWyU4l8SjXpRXk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/wav_Prefix-glijscpcxuindgcqkbrhtmjkgnsa/wav_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision" /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-s296307758.208068
-e296307758.283326
-r1
-xProcessProductPackaging
-x/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-lSLF07#2@192"ProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision" build/Debug-iphoneos/wav.app/embedded.mobileprovision296307758#296307758#0(0"0(0#0#82"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision31525678434287664#403"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/1B820A31-0894-43AA-8D49-5D82C3448CB7.mobileprovision" -o /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/6DC644C1-C237-4773-8FC4-F08DA4EDCF53.mobileprovision" /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-s296234318.235072
-e296234318.245156
-r1
-xProcessProductPackaging
-x/Users/hayato240/Library/MobileDevice/Provisioning Profiles/6DC644C1-C237-4773-8FC4-F08DA4EDCF53.mobileprovision
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-lSLF07#2@192"ProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/6DC644C1-C237-4773-8FC4-F08DA4EDCF53.mobileprovision" build/Debug-iphoneos/wav.app/embedded.mobileprovision296234318#296234318#0(0"0(0#0#82"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision8620861088#403"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/6DC644C1-C237-4773-8FC4-F08DA4EDCF53.mobileprovision" -o /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/B5D36C69-2BFD-49FE-9081-B8B02D86EC16.mobileprovision" /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-s296285274.881280
-e296285274.935617
-r1
-xProcessProductPackaging
-x/Users/hayato240/Library/MobileDevice/Provisioning Profiles/B5D36C69-2BFD-49FE-9081-B8B02D86EC16.mobileprovision
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision
-lSLF07#2@192"ProcessProductPackaging "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/B5D36C69-2BFD-49FE-9081-B8B02D86EC16.mobileprovision" build/Debug-iphoneos/wav.app/embedded.mobileprovision296285274#296285274#0(0"0(0#0#82"/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision8622592864#403"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/hayato240/Library/MobileDevice/Provisioning Profiles/B5D36C69-2BFD-49FE-9081-B8B02D86EC16.mobileprovision" -o /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent
-s296307567.968352
-e296307567.986409
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent
-lSLF07#2@163"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/wav.build/Debug-iphoneos/wav.build/wav.xcent296307567#296307567#0(0"0(0#0#79"/Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent8781641344#400"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/hayato240/Dropbox/wav/build/wav.build/Debug-iphoneos/wav.build/wav.xcent0#
-
-CTouch /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-s296307758.283426
-e296307758.296459
-r1
-xTouch
-x/Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app
-lSLF07#2@63"Touch /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app296307758#296307758#0(0"0(0#0#0"8604897376#240"    cd /Users/hayato240/Dropbox/wav    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/hayato240/Dropbox/wav/build/Debug-iphoneos/wav.app0#
-
