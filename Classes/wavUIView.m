@@ -14,36 +14,59 @@
 
 - (id)init {
 	self = [super init];
+
 	return self;
 }	
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-
-	UITouch* touch = [touches anyObject];
-	CGPoint pt = [touch locationInView:self];	
-	[delegate touchPoint: pt.x: pt.y :TRUE ];
+	[self setMultipleTouchEnabled:YES]; //XXX: ヤバイっすねｌ
+	NSEnumerator *enumerator = [touches objectEnumerator];
+	UITouch *touch;
+	while ((touch = [enumerator nextObject]))
+	{
+		[delegate touchBegan:touch];
+	}
+	
+	[super touchesMoved:touches withEvent:event];
+	
 	
 }
 
+/*
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event{
+	int finger = 0;
+	NSEnumerator *enumerator = [touches objectEnumerator];
+	UITouch *touch;
+	CGPoint location;
+	while ((touch = [enumerator nextObject]))
+	{
+		location = [touch locationInView:self];
+		NSLog(@"指 %x が移動した: %f, %f", touch, location.x, location.y);
+		finger++;
+	}
+	
+	[super touchesMoved:touches withEvent:event];
 
-	UITouch* touch = [touches anyObject];
-	CGPoint pt = [touch locationInView:self];
-	[delegate touchPoint:pt.x:pt.y:TRUE];
+	
 }
+ */
+
+
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
-	UITouch* touch = [touches anyObject];
-	CGPoint pt = [touch locationInView:self];
-	[delegate touchPoint:pt.x:pt.y:FALSE];
+	NSEnumerator *enumerator = [touches objectEnumerator];
+	UITouch *touch;
+	while ((touch = [enumerator nextObject]))
+	{
+		[delegate touchEnded:touch];
+	}
+	
+	[super touchesMoved:touches withEvent:event];
 	
 }
 
 - (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event{
-	/*
-	UITouch* touch = [touches anyObject];
-	CGPoint pt = [touch locationInView:self];
-	[delegate touchPoint:pt.x:pt.y];
-	 */
+
+	[self touchesEnded:touches:event];
 }
 
 

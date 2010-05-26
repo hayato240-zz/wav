@@ -20,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	window.multipleTouchEnabled = YES;
 	viewController = [[wavViewController alloc] init];
 
 	[window addSubview:viewController.view];

@@ -10,6 +10,7 @@
 #import "YKAudioOutput.h"
 #import "wavUIView.h"
 #import "touchDelegate.h"
+#import "multiTouchAudio.h"
 
 
 @interface wavViewController : UIViewController<touchDelegate> {

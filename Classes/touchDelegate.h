@@ -10,5 +10,6 @@
 
 
 @protocol touchDelegate
-- (void)touchPoint:(double)x: (double) y: (BOOL)isTouch;
+- (void)touchBegan:(UITouch*) touch;
+- (void)touchEnded:(UITouch*) touch;
 @end

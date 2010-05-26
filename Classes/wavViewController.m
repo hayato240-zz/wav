@@ -9,6 +9,7 @@
 #import "wavViewController.h"
 #import "YKAudioOutput.h"
 #import "wavUIView.h"
+#import "multiTouchAudio.h"
 
 @implementation wavViewController
 @synthesize audio;
@@ -39,7 +40,7 @@
 
 
 -(void)touchPoint:(double)x: (double) y:(BOOL)isTouch{
-	[self.audio receiveLocation: x: y:isTouch];
+	//[self.audio receiveLocation: x: y:isTouch];
 	UIColor* color;
 	if (isTouch) {
 		currentColor++;
@@ -93,14 +94,23 @@
 }
  */
 
+- (void)touchBegan:(UITouch*) touch{
+	[audio touchBegan:touch];
+}
+
+- (void)touchEnded:(UITouch*) touch{
+	[audio touchEnded:touch];
+}
+
+
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
 	[super loadView];
 	uiview = [[wavUIView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
 	uiview.backgroundColor = [UIColor blackColor];
 	[self.view addSubview:uiview];
+
 	
-	audio = [[YKAudioOutput alloc] init];
 
 }
 
@@ -109,8 +119,10 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	audio = [[multiTouchAudio alloc] init];
 	uiview.delegate = self;
 	[uiview becomeFirstResponder];
+	//[self.view setMultipleTouchEnabled:YES];
 }
 
 
