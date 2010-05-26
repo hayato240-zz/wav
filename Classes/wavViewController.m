@@ -7,7 +7,6 @@
 //
 
 #import "wavViewController.h"
-#import "YKAudioOutput.h"
 #import "wavUIView.h"
 #import "multiTouchAudio.h"
 

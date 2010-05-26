@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "YKAudioOutput.h"
+#import "touchDelegate.h"
 
-@interface multiTouchAudio : NSObject {
+@interface multiTouchAudio : NSObject<touchDelegate> {
+	AudioUnit outputUnit;
 	YKAudioOutput *audio;
 	NSMutableSet *sounds;
 }
-
+-(void)setupOutputUnit;
+@property (readwrite,retain, nonatomic) NSMutableSet* sounds;
+@property (readwrite,retain, nonatomic)  NSEnumerator* iterator;
 @end

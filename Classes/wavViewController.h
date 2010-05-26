@@ -7,22 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YKAudioOutput.h"
 #import "wavUIView.h"
 #import "touchDelegate.h"
 #import "multiTouchAudio.h"
 
 
 @interface wavViewController : UIViewController<touchDelegate> {
-		YKAudioOutput *audio;
 		wavUIView *uiview;
 		id delegate; 
 		int currentColor;
+		multiTouchAudio *audio;
 }
 
 
 -(id) colorAt:(int)at;
-@property (nonatomic, retain) IBOutlet YKAudioOutput *audio;
+@property (nonatomic, retain) IBOutlet multiTouchAudio *audio;
 @property (nonatomic, retain) IBOutlet wavUIView *uiview;
 @property (nonatomic, retain) id delegate;  
 @end
