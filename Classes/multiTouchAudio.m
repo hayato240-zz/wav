@@ -12,6 +12,7 @@
 
 @implementation multiTouchAudio
 @synthesize sounds;
+@synthesize iterator;
 
 -(id)init{
 	self = [super init];
@@ -76,7 +77,7 @@ static OSStatus OutputCallback(void *inRefCon,
                                UInt32 inNumberFrames,
                                AudioBufferList *ioData)
 {
-	NSLog("output");
+	NSLog(@"output");
 	NSAutoreleasePool* pool;
 	pool = [[NSAutoreleasePool alloc]init];
     OSStatus err = noErr;

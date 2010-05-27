@@ -14,6 +14,7 @@
 	AudioUnit outputUnit;
 	YKAudioOutput *audio;
 	NSMutableSet *sounds;
+	NSEnumerator* iterator;
 }
 -(void)setupOutputUnit;
 @property (readwrite,retain, nonatomic) NSMutableSet* sounds;
