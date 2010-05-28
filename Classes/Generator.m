@@ -20,7 +20,7 @@
 	time = 0;
 	pitch = 440;
 	state = 1;
-	lastSignal = 0.0;
+	lastSignal = 10;
 	return self;
 }
 
@@ -39,16 +39,28 @@
 		return 0.0;
 	}
 
-	CGPoint point = [self.touch locationInView:nil];
-	pitch = point.y * 3 + 400;
 	double signal = sin(M_PI / 22050 * time * pitch);
 	time++;
 
-	if (state == 2 && fabs(signal) > fabs(lastSignal) ) {
-		signal = 0.0;
-		state++;
+	if (fabs(signal) > fabs(lastSignal)) {
+		CGPoint point = [self.touch locationInView:nil];
+
+		//XXX なんか%が使えなくてださい感じになった，よくわからない
+		double octave = 96.0 * 1.5;
+		pitch = 55.0 * pow(2, floor(point.y / octave) + 2);
+		int at = floor(point.y * 12 / octave);
+		while(at >= 12) at -= 12;
+		for (int i=0; i < at; i++) {
+			pitch *= 1.05946;
+		}
+
+		if (state == 2) {
+			signal = 0.0;
+			state++;
+		}
 	}
 	lastSignal = signal;
+
 	return signal;
 }
 
