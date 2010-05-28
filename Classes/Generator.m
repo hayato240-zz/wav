@@ -17,10 +17,13 @@
 	self = [super init];
 	self.touch = _touch;
 	
-	time = 0;
+	time = 0.0;
 	pitch = 440;
 	state = 1;
 	lastSignal = 10;
+	theta = 0.0;
+	vibrato = 0.0;
+	volume = 1.0;
 	return self;
 }
 
@@ -40,10 +43,22 @@
 	}
 
 	double signal = sin(M_PI / 22050 * time * pitch);
-	time++;
+	time+= 1 + sin(theta++ / 500.0) * vibrato;
 
 	if (fabs(signal) > fabs(lastSignal)) {
 		CGPoint point = [self.touch locationInView:nil];
+		
+		if (point.x > 190) {
+			vibrato = pow((point.x - 190) / (360.0 - 190.0), 2) * 0.3;
+		} else {
+			vibrato = 0.0;
+		}
+
+		if (point.x < 130) {
+			volume = (theta % 3000)> 1500 ? 1.0 : pow((point.x / 130.0), 2);
+		} else {
+			volume = 1.0;
+		}
 
 		//XXX なんか%が使えなくてださい感じになった，よくわからない
 		double octave = 96.0 * 1.5;
@@ -61,7 +76,7 @@
 	}
 	lastSignal = signal;
 
-	return signal;
+	return signal * volume;
 }
 
 @end

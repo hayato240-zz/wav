@@ -12,10 +12,13 @@
 
 @interface Generator : NSObject {
 	UITouch* touch;
-	NSInteger time;
+	double time;
 	NSInteger pitch;
 	NSInteger state;
 	double lastSignal;
+	NSInteger theta;
+	double vibrato;
+	double volume;
 }
 @property(retain,nonatomic) IBOutlet UITouch* touch;
 @property(assign,nonatomic) NSInteger state;
