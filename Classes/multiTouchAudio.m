@@ -48,7 +48,7 @@
 			}
 		}
 		if (generator != nil) {
-			[sounds removeObject:generator];
+			[generator released];
 //			[generator release];
 		}
 	}
@@ -83,7 +83,7 @@ static OSStatus OutputCallback(void *inRefCon,
 				Generator *generator;
 				while ((generator = [enumerator nextObject]))
 				{
-					signal += [generator generateSound] * 0.3;
+					signal += [generator generateSound] / [sounds count];
 //					NSLog(@"signal %d", signal);
 				}
 				[enumerator release];
@@ -96,6 +96,24 @@ static OSStatus OutputCallback(void *inRefCon,
 			}
 		}
 	}
+		if ([that->sounds count] > 0) {
+			NSMutableSet *sounds = that.sounds;
+			NSEnumerator *enumerator;
+			enumerator = [sounds objectEnumerator];
+			[enumerator autorelease];
+			Generator *generator;
+			while ((generator = [enumerator nextObject]))
+			{
+				if ([generator died]) {
+					break;
+				}
+			}
+			if (generator && [generator died]) {
+				[that->sounds removeObject:generator];
+				[enumerator release];
+			}
+		}
+			
 		// TODO: overflow!!!!!!!!
 	}
 //	[pool release];

@@ -14,9 +14,14 @@
 	UITouch* touch;
 	NSInteger time;
 	NSInteger pitch;
+	NSInteger state;
+	double lastSignal;
 }
 @property(retain,nonatomic) IBOutlet UITouch* touch;
+@property(assign,nonatomic) NSInteger state;
 -(double) generateSound;
+-(void) released;
+-(BOOL) died;
 -(id) initWithTouch:(UITouch*) _touch;
 
 @end
