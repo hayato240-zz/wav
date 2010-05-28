@@ -16,7 +16,7 @@
 	NSInteger pitch;
 }
 @property(retain,nonatomic) IBOutlet UITouch* touch;
--(NSInteger) generateSound;
+-(double) generateSound;
 -(id) initWithTouch:(UITouch*) _touch;
 
 @end

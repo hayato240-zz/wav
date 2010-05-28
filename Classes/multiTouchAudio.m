@@ -72,8 +72,9 @@ static OSStatus OutputCallback(void *inRefCon,
 
     for (NSInteger i = 0; i < ioData->mNumberBuffers; i++) {
         AudioSampleType *ptr = ioData->mBuffers[i].mData;
-		int signal = 0;
+		double signal;
         for (NSInteger j = 0; j < inNumberFrames; j++) {
+			signal = 0;
 			if ([that->sounds count] > 0) {
 				NSMutableSet *sounds = that.sounds;
 				NSEnumerator *enumerator;
@@ -82,12 +83,13 @@ static OSStatus OutputCallback(void *inRefCon,
 				Generator *generator;
 				while ((generator = [enumerator nextObject]))
 				{
-					signal += [generator generateSound];
+					signal += [generator generateSound] * 0.3;
 //					NSLog(@"signal %d", signal);
 				}
 				[enumerator release];
 
 			}
+			signal *= INT16_MAX;
 			UInt32 channels = ioData->mBuffers[i].mNumberChannels;
 			for (NSInteger k = 0; k < channels; k++) {
 				ptr[j * channels + k] = signal;

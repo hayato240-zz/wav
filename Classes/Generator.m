@@ -22,10 +22,12 @@
 	return self;
 }
 
--(NSInteger)generateSound {
+-(double)generateSound {
+	CGPoint point = [self.touch locationInView:nil];
+	pitch = point.y * 3 + 400;
 	double signal = sin(M_PI / 22050 * time * pitch);
 	time++;
-	return signal * INT16_MAX;
+	return signal;
 }
 
 @end
