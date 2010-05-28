@@ -36,37 +36,23 @@
 
 	pool = [[NSAutoreleasePool alloc]init];
 	
-	NSLog(@"end1");
 	@synchronized(self) {
-		NSLog(@"end2");
 		NSEnumerator *enumerator = [sounds objectEnumerator];
-		NSLog(@"end3");
 		Generator *generator;
-		NSLog(@"end4");
 		while ((generator = [enumerator nextObject]))
 		{
-			NSLog(@"end5");
 			if (touch == generator.touch) {
-				NSLog(@"end6");
 				break;
 			} else {
-				NSLog(@"end7");
 				generator = nil;
 			}
-			NSLog(@"end8");
 		}
-		NSLog(@"end9");
 		if (generator != nil) {
-			NSLog(@"end10");
 			[sounds removeObject:generator];
-			NSLog(@"end11");
 //			[generator release];
-			NSLog(@"end12");
 		}
 	}
-	NSLog(@"end13");
 //	[pool release];
-	NSLog(@"end14");
 }
 
 
@@ -77,7 +63,6 @@ static OSStatus OutputCallback(void *inRefCon,
                                UInt32 inNumberFrames,
                                AudioBufferList *ioData)
 {
-	NSLog(@"output");
 	NSAutoreleasePool* pool;
 	pool = [[NSAutoreleasePool alloc]init];
     OSStatus err = noErr;
