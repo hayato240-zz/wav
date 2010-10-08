@@ -7,37 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* wavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* wavAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		28D7ACF80DDB3853001CB0EB /* wavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* wavViewController.m */; };
+		48E81D5B125F6EB0008EFBB7 /* Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D4B125F6EB0008EFBB7 /* Generator.m */; };
+		48E81D5C125F6EB0008EFBB7 /* multiTouchAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D4D125F6EB0008EFBB7 /* multiTouchAudio.m */; };
+		48E81D5D125F6EB0008EFBB7 /* wavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D50125F6EB0008EFBB7 /* wavAppDelegate.m */; };
+		48E81D5E125F6EB0008EFBB7 /* wavAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D52125F6EB0008EFBB7 /* wavAudio.m */; };
+		48E81D5F125F6EB0008EFBB7 /* wavTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D54125F6EB0008EFBB7 /* wavTouch.m */; };
+		48E81D60125F6EB0008EFBB7 /* wavUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D56125F6EB0008EFBB7 /* wavUIView.m */; };
+		48E81D61125F6EB0008EFBB7 /* wavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D58125F6EB0008EFBB7 /* wavViewController.m */; };
+		48E81D62125F6EB0008EFBB7 /* YKAudioOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E81D5A125F6EB0008EFBB7 /* YKAudioOutput.m */; };
 		A7672DE411A85851003AEA1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7672DE311A85851003AEA1E /* Default.png */; };
-		A7672E1C11A85DBD003AEA1E /* wavUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7672E1B11A85DBD003AEA1E /* wavUIView.m */; };
-		A7E0695F11A8F3ED004ECE9F /* YKAudioOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E0695E11A8F3ED004ECE9F /* YKAudioOutput.m */; };
 		A7E0696511A8F46A004ECE9F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E0696411A8F46A004ECE9F /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* wavAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* wavAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* wav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28D7ACF60DDB3853001CB0EB /* wavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* wavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* wav_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav_Prefix.pch; sourceTree = "<group>"; };
+		48E81D4A125F6EB0008EFBB7 /* Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generator.h; sourceTree = "<group>"; };
+		48E81D4B125F6EB0008EFBB7 /* Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Generator.m; sourceTree = "<group>"; };
+		48E81D4C125F6EB0008EFBB7 /* multiTouchAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multiTouchAudio.h; sourceTree = "<group>"; };
+		48E81D4D125F6EB0008EFBB7 /* multiTouchAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = multiTouchAudio.m; sourceTree = "<group>"; };
+		48E81D4E125F6EB0008EFBB7 /* touchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touchDelegate.h; sourceTree = "<group>"; };
+		48E81D4F125F6EB0008EFBB7 /* wavAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavAppDelegate.h; sourceTree = "<group>"; };
+		48E81D50125F6EB0008EFBB7 /* wavAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavAppDelegate.m; sourceTree = "<group>"; };
+		48E81D51125F6EB0008EFBB7 /* wavAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavAudio.h; sourceTree = "<group>"; };
+		48E81D52125F6EB0008EFBB7 /* wavAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavAudio.m; sourceTree = "<group>"; };
+		48E81D53125F6EB0008EFBB7 /* wavTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavTouch.h; sourceTree = "<group>"; };
+		48E81D54125F6EB0008EFBB7 /* wavTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavTouch.m; sourceTree = "<group>"; };
+		48E81D55125F6EB0008EFBB7 /* wavUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavUIView.h; sourceTree = "<group>"; };
+		48E81D56125F6EB0008EFBB7 /* wavUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavUIView.m; sourceTree = "<group>"; };
+		48E81D57125F6EB0008EFBB7 /* wavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavViewController.h; sourceTree = "<group>"; };
+		48E81D58125F6EB0008EFBB7 /* wavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavViewController.m; sourceTree = "<group>"; };
+		48E81D59125F6EB0008EFBB7 /* YKAudioOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKAudioOutput.h; sourceTree = "<group>"; };
+		48E81D5A125F6EB0008EFBB7 /* YKAudioOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKAudioOutput.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* wav-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "wav-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		A7672DE311A85851003AEA1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A7672E1A11A85DBD003AEA1E /* wavUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wavUIView.h; sourceTree = "<group>"; };
-		A7672E1B11A85DBD003AEA1E /* wavUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wavUIView.m; sourceTree = "<group>"; };
-		A7E0695D11A8F3ED004ECE9F /* YKAudioOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKAudioOutput.h; sourceTree = "<group>"; };
-		A7E0695E11A8F3ED004ECE9F /* YKAudioOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKAudioOutput.m; sourceTree = "<group>"; };
 		A7E0696411A8F46A004ECE9F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		A7E06AAB11A917CC004ECE9F /* touchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = touchDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,23 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A7E06AAB11A917CC004ECE9F /* touchDelegate.h */,
-				A7672E1A11A85DBD003AEA1E /* wavUIView.h */,
-				A7672E1B11A85DBD003AEA1E /* wavUIView.m */,
-				1D3623240D0F684500981E51 /* wavAppDelegate.h */,
-				1D3623250D0F684500981E51 /* wavAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* wavViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* wavViewController.m */,
-				A7E0695D11A8F3ED004ECE9F /* YKAudioOutput.h */,
-				A7E0695E11A8F3ED004ECE9F /* YKAudioOutput.m */,
+				48E81D4A125F6EB0008EFBB7 /* Generator.h */,
+				48E81D4B125F6EB0008EFBB7 /* Generator.m */,
+				48E81D4C125F6EB0008EFBB7 /* multiTouchAudio.h */,
+				48E81D4D125F6EB0008EFBB7 /* multiTouchAudio.m */,
+				48E81D4E125F6EB0008EFBB7 /* touchDelegate.h */,
+				48E81D4F125F6EB0008EFBB7 /* wavAppDelegate.h */,
+				48E81D50125F6EB0008EFBB7 /* wavAppDelegate.m */,
+				48E81D51125F6EB0008EFBB7 /* wavAudio.h */,
+				48E81D52125F6EB0008EFBB7 /* wavAudio.m */,
+				48E81D53125F6EB0008EFBB7 /* wavTouch.h */,
+				48E81D54125F6EB0008EFBB7 /* wavTouch.m */,
+				48E81D55125F6EB0008EFBB7 /* wavUIView.h */,
+				48E81D56125F6EB0008EFBB7 /* wavUIView.m */,
+				48E81D57125F6EB0008EFBB7 /* wavViewController.h */,
+				48E81D58125F6EB0008EFBB7 /* wavViewController.m */,
+				48E81D59125F6EB0008EFBB7 /* YKAudioOutput.h */,
+				48E81D5A125F6EB0008EFBB7 /* YKAudioOutput.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -147,7 +167,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wav" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -174,10 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* wavAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* wavViewController.m in Sources */,
-				A7672E1C11A85DBD003AEA1E /* wavUIView.m in Sources */,
-				A7E0695F11A8F3ED004ECE9F /* YKAudioOutput.m in Sources */,
+				48E81D5B125F6EB0008EFBB7 /* Generator.m in Sources */,
+				48E81D5C125F6EB0008EFBB7 /* multiTouchAudio.m in Sources */,
+				48E81D5D125F6EB0008EFBB7 /* wavAppDelegate.m in Sources */,
+				48E81D5E125F6EB0008EFBB7 /* wavAudio.m in Sources */,
+				48E81D5F125F6EB0008EFBB7 /* wavTouch.m in Sources */,
+				48E81D60125F6EB0008EFBB7 /* wavUIView.m in Sources */,
+				48E81D61125F6EB0008EFBB7 /* wavViewController.m in Sources */,
+				48E81D62125F6EB0008EFBB7 /* YKAudioOutput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,13 +246,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
