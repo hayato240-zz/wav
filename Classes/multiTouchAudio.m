@@ -66,16 +66,23 @@ static OSStatus OutputCallback(void *inRefCon,
 	NSAutoreleasePool* pool;
 	pool = [[NSAutoreleasePool alloc]init];
     OSStatus err = noErr;
-
+	
 	multiTouchAudio *that = (multiTouchAudio *)inRefCon;
 	@synchronized(that) {
-
-    for (NSInteger i = 0; i < ioData->mNumberBuffers; i++) {
-        AudioSampleType *ptr = ioData->mBuffers[i].mData;
-		double signal;
-        for (NSInteger j = 0; j < inNumberFrames; j++) {
-			signal = 0;
-			if ([that->sounds count] > 0) {
+		
+		for (NSInteger i = 0; i < ioData->mNumberBuffers; i++) {
+			AudioSampleType *ptr = ioData->mBuffers[i].mData;
+			
+			if ([that->sounds count] == 0) {
+				for (NSInteger j = 0; j < inNumberFrames; j++) {
+					UInt32 channels = ioData->mBuffers[i].mNumberChannels;
+					for (NSInteger k = 0; k < channels; k++) {
+						ptr[j * channels + k] = 0;
+					}
+				}
+			} else {
+				double signal;
+				BOOL isFirst = TRUE;
 				NSMutableSet *sounds = that.sounds;
 				NSEnumerator *enumerator;
 				enumerator = [sounds objectEnumerator];
@@ -83,20 +90,19 @@ static OSStatus OutputCallback(void *inRefCon,
 				Generator *generator;
 				while ((generator = [enumerator nextObject]))
 				{
-					signal += [generator generateSound] / [sounds count];
-//					NSLog(@"signal %d", signal);
+					for (NSInteger j = 0; j < inNumberFrames; j++) {
+						signal = [generator generateSound] / [sounds count] * INT16_MAX;
+						UInt32 channels = ioData->mBuffers[i].mNumberChannels;
+						for (NSInteger k = 0; k < channels; k++) {
+							if (isFirst) ptr[j * channels + k] = 0;
+							ptr[j * channels + k] += signal;
+						}
+					}
+					isFirst = FALSE;			
 				}
 				[enumerator release];
-
+				
 			}
-			signal *= INT16_MAX;
-			UInt32 channels = ioData->mBuffers[i].mNumberChannels;
-			for (NSInteger k = 0; k < channels; k++) {
-				ptr[j * channels + k] = signal;
-			}
-		}
-	}
-		if ([that->sounds count] > 0) {
 			NSMutableSet *sounds = that.sounds;
 			NSEnumerator *enumerator;
 			enumerator = [sounds objectEnumerator];
@@ -113,10 +119,10 @@ static OSStatus OutputCallback(void *inRefCon,
 				[enumerator release];
 			}
 		}
-			
+		
 		// TODO: overflow!!!!!!!!
 	}
-//	[pool release];
+	//	[pool release];
     return err;
 }
 
